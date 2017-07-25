@@ -1,0 +1,20 @@
+Ast_Platform_Accueil:
+    path: /
+    defaults: { _controller: ASTPlatformBundle:Animestudio:Accueil}
+Ast_Platform_Inscription:
+    path: /inscription
+    defaults: { _controller: ASTPlatformBundle:Animestudio:inscription}
+Ast_Platform_Connexion:
+    path: /connexion
+    defaults: { _controller: ASTPlatformBundle:Animestudio:connexion}
+# ast_platform_view:
+#     path: /annonce/{id} ## LA ROUTE SERA platform/animestudio/{id} car dans app\config\routing.yml // c'est 
+#     defaults: { _controller: ASTPlatformBundle:Animestudio:view } #le préfix de ast_platform est /platform ast_platform représente le bundle dans app/coonfig/routing.yml
+#     requirements: {id: \d+}
+
+# ast_platform_view_slug:
+#     path: /{year}/{slug}.{_format}
+#     defaults: { _controller: ASTPlatformBundle:Animestudio:viewSlug,_format: html } #paramètre par défaut
+#     requirements:
+#       year: \d{4} #on définit le type du paramètre avec une expression régulière
+#       _format: html|xml #format accepter par le paramètre xml ou html

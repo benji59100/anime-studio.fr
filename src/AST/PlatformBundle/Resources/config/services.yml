@@ -1,0 +1,4 @@
+services:
+#    ast_platform.example:
+#        class: AST\PlatformBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

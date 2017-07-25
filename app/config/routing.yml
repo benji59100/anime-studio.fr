@@ -1,0 +1,6 @@
+ast_platform:
+    resource: "@ASTPlatformBundle/Resources/config/routing.yml"
+    prefix:   /animestudio
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
